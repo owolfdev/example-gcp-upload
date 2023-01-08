@@ -31,15 +31,17 @@ export default function Home() {
 
   return (
     <>
-      <div className=" p-11   space-y-9 ">
+      <div className=" p-11 space-y-9">
         <h1 className="text-4xl font-bold">Google Cloud Platform Upload</h1>
         <input type="file" name="file" id="file" onChange={handleFileInput} />
         <button
-          className="border border-black rounded px-2"
+          className="px-2 border border-black rounded"
           onClick={handleUpload}
         >
           upload
         </button>
+        <br />
+        <div>Uploaded files</div>
       </div>
     </>
   );
