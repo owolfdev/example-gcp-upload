@@ -1,6 +1,12 @@
 Olivier Wolfson
 Currently signed in to Google Cloud using owolfdev@gmail.com
 
+# Get service key to work in vercel
+
+https://github.com/orgs/vercel/discussions/219
+
+#
+
 # Github Repo
 
 git remote add origin https://github.com/owolfdev/example-gcp-upload.git
